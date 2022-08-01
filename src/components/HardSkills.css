@@ -1,0 +1,37 @@
+.skillContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.skillBox {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconBox {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  fill: black;
+  transition-property: fill;
+  transition-duration: 0.3s;
+}
+
+.iconBox:hover {
+  fill: white;
+}
+
+.skillList {
+  list-style: none;
+  font-size: 1.5em;
+}
