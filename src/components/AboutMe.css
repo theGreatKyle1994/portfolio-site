@@ -9,22 +9,20 @@
   text-align: justify;
   width: 75%;
   font-size: 1.7em;
-  line-height: 35px;
-  word-spacing: 1px;
-  letter-spacing: 2px;
 }
 
 .myImage {
   width: 300px;
   border: 3px solid #588157;
-  box-shadow: 5px 5px 3px #344e41;
-  border-radius: 25px;
+  border-radius: 15px;
   margin: 0 20px;
-  transition-property: transform;
-  transition-duration: 0.1s;
+  filter: drop-shadow(3px 3px 1px #344e41);
+  transition-property: transform filter;
+  transition-duration: 0.3s;
 }
 
 .myImage:hover {
   transform: scale(1.05);
+  filter: drop-shadow(15px 15px 4px #344e41);
   cursor: pointer;
 }
