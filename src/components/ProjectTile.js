@@ -3,7 +3,7 @@ import "./ProjectTile.css";
 const ProjectTile = (props) => {
   console.log(props.imgUrl);
   return (
-    <div className={"tileContainer"}>
+    <li className={"tileContainer"}>
       <h2 className={"tileTitle"}>
         <span className={'tileTitleTags'}>{`< `}</span>
         {props.title}
@@ -15,7 +15,7 @@ const ProjectTile = (props) => {
           style={{ backgroundImage: `url(${props.imgUrl})` }}
         />
       </a>
-    </div>
+    </li>
   );
 };
 

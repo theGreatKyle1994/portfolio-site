@@ -11,12 +11,11 @@ function App() {
   return (
     <main className={"mainBody"}>
       <Header />
-      {/* <nav className={"navContainer"}>BOI</nav> */}
       <AboutMe />
       <HardSkills icons={svgIcons} />
       <SoftSkills />
       <Projects />
-      <Footer />
+      <Footer icons={svgIcons} />
     </main>
   );
 }

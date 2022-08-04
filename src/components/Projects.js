@@ -8,7 +8,7 @@ import ProjectTile from "./ProjectTile";
 const Projects = () => {
   return (
     <Card title={"Projects"}>
-      <section className={"projectContainer"}>
+      <ul className={"projectContainer"}>
         <ProjectTile
           title={"@Recipes"}
           url={"https://thegreatkyle1994.github.io/react-recipe-app/"}
@@ -24,7 +24,7 @@ const Projects = () => {
           url={"https://thegreatkyle1994.github.io/dad-joke-generator/"}
           imgUrl={dadJokeGenImg}
         />
-      </section>
+      </ul>
     </Card>
   );
 };

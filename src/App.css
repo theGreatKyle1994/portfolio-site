@@ -1,15 +1,3 @@
-.navContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
-  position: sticky;
-  top: 0;
-  height: 100px;
-  background-color: white;
-  color: black;
-}
-
 .mainBody {
   display: flex;
   flex-direction: column;
