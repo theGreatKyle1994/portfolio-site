@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.c71572ac.css",
+    "main.js": "/portfolio-site/static/js/main.137de921.js",
+    "static/media/me.jpg": "/portfolio-site/static/media/me.b9317da1ba4cab4b9b3e.jpg",
+    "static/media/atRecipes.jpg": "/portfolio-site/static/media/atRecipes.8df3f274c6ab3456eb5c.jpg",
+    "static/media/dadJokeGen.jpg": "/portfolio-site/static/media/dadJokeGen.390b6ada738fb9997922.jpg",
+    "static/media/colorGenerator.jpg": "/portfolio-site/static/media/colorGenerator.2ace216cd7c4e9fa4a10.jpg",
+    "index.html": "/portfolio-site/index.html",
+    "main.c71572ac.css.map": "/portfolio-site/static/css/main.c71572ac.css.map",
+    "main.137de921.js.map": "/portfolio-site/static/js/main.137de921.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c71572ac.css",
+    "static/js/main.137de921.js"
+  ]
+}
